@@ -1,5 +1,5 @@
 #SIMPLE CALCULATOR
-#This scripts performs +, -, * or / of 2 given integer numbers 
+#This script performs +, -, * or / of 2 given numbers 
 
 #Returns the sum of num1 and num2
 def add(num1, num2):
