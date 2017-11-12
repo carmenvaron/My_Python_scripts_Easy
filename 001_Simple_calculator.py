@@ -24,9 +24,8 @@ flag=0
 while flag==0:
     var1=input("Enter num 1: ")
     try:
-        float(var1)
-        flag=1
         var1=float(var1)
+        flag=1
     except ValueError:
         print(var1,"is not a number.")
         
@@ -34,9 +33,8 @@ flag=0
 while flag==0:
     var2=input("Enter num 2: ")
     try:
-        float(var2)
-        flag=1
         var2=float(var2)
+        flag=1
     except ValueError:
         print(var2,"is not a number.")
         
